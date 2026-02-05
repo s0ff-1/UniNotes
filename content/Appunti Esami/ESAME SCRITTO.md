@@ -1,0 +1,72 @@
+
+## ESERCIZIO 1 
+#esercizio1 #cache
+
+#### FORMULE PUNTO 1
+
+| ADDRESS   |         1000         |
+| --------- | :------------------: |
+| **BLOCK** | $\frac{ADDRESS}{DB}$ |
+| **INDEX** |    $BLOCKmodSET$     |
+| **TAG**   | $\frac{BLOCK}{SET}$  |
+
+#### FORMULE PUNTO 2
+
+
+| DIM.BLOCCO | $$ Nword \times 4 word = x \times 8 bit = x bit $$   |
+| ---------- | ---------------------------------------------------- |
+| **OFFSET** | $$ \log_2(Nword\times4) $$                           |
+| **INDEX**  | $$ \log_2(SET)$$                                     |
+| **TAG**    | $$(32-INDEX- OFFSET)$$                               |
+| **L-TOT**  | $$Nvie \times SET \times (TAG + V + U +DIM.BLOCCO)$$ |
+ - *L-TOT VARIA IN BASE AL TIPO DI CACHE*
+
+### FORMULE PUNTO 3
+
+
+| TEMPO (TT)     | $$(L1HIT \times ns) + (L2HIT \times ns) + (Nmiss \times ns) $$ |
+| -------------- | -------------------------------------------------------------- |
+| **TEMPO (TM)** | $$\frac {TT}{Naddress}$$                                       |
+| **NUM-IST**    | $$\frac {TM}{CPI} \times \frac {1}{f}$$                        |
+
+
+-----
+
+## ESERCIZIO 2
+#esercizio2 #RISC
+
+
+---
+## ESERCIZIO 3
+ #esercizio3 #no-forwarding #forwarding 
+
+#### NO-FORWARDING 
+
+**CASO 1**:
+	`istruzione x, bla , bla`
+	`bla bla bla`
+	`istruzione bla, x ,bla`
+	**1 STALLI**
+
+**CASO 2:**
+	`istruzione x, bla , bla
+	`istruzione bla,  x  , bla`
+	 **2 STALLI**
+
+#### FORWARDING
+
+**CASO 1/2 PRECEDENTI DA IGNORARE**
+
+**CASO 1F:**
+	`la , li`
+	`istruzione`  $\neq$ `beq, bqe...`
+	**NO STALLI**
+
+**CASO 2F:**
+	`lb,lw,lh`
+	`istrzione` $\neq$ `beq,bqe...`
+	**1 STALLO**
+
+**CASO 3F:**
+
+**CASO 4F:**

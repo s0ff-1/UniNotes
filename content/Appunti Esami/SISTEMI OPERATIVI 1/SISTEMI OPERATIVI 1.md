@@ -78,4 +78,4 @@
 	 FREQUENZA = 1/4000 ACCESSI (P_FAULT)
 
 **SOLUZIONE:**
-	SOL: $$Pfault \times Tfault\ +\ (1\ -\ Pfault)\times Tm  = x \ \micro s$$
+	SOL: $$Pfault \times Tfault\ +\ (1\ -\ Pfault)\times Tm  = x \ \micro\ s$$

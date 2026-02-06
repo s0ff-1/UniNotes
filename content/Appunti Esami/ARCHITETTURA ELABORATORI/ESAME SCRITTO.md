@@ -21,7 +21,7 @@
 | **L-TOT**  | $$Nvie \times SET \times (TAG + V + U +DIM.BLOCCO)$$ |
  - *L-TOT VARIA IN BASE AL TIPO DI CACHE*
 
-### FORMULE PUNTO 3
+#### FORMULE PUNTO 3
 
 
 | TEMPO (TT)     | $$(L1HIT \times ns) + (L2HIT \times ns) + (Nmiss \times ns) $$ |
@@ -35,8 +35,18 @@
 ## ESERCIZIO 2
 #esercizio2 #RISC
 
+#### TIPO DI ISTRUZIONE:
+
+![[Pasted image 20260206104712.png|500]]
+
+#### REGISTRI:
+
+
+![[Pasted image 20260206105014.png|200]]
+
 
 ---
+
 ## ESERCIZIO 3
  #esercizio3 #no-forwarding #forwarding 
 
@@ -53,9 +63,18 @@
 	`istruzione bla,  x  , bla`
 	 **2 STALLI**
 
+----
+
 #### FORWARDING
 
 **CASO 1/2 PRECEDENTI DA IGNORARE**
+
+**SEMPRE VALIDO:**
+	se beq/s salta
+	`beq ... FDXMW`
+	`slli F`
+	`addi FDXMW`
+	**1 STALLO**
 
 **CASO 1F:**
 	`la , li`
@@ -68,5 +87,18 @@
 	**1 STALLO**
 
 **CASO 3F:**
+	`la,li, R-Type
+	`istruzione beq,bge... `
+	**1 STALLO**
 
 **CASO 4F:**
+	`lw,lh,lb
+	`istruzione beq,bge...`
+	**2 STALLI**
+
+**CASO 5F:**
+	`lw,lb,lh x
+	`bla, bla, bla
+	`istruzione beq,bge...`
+	**1 STALLO**
+

@@ -53,15 +53,15 @@
 #### NO-FORWARDING 
 
 **CASO 1**:
-	`istruzione x, bla , bla`
+	```istruzione x, bla , bla`
 	`bla bla bla`
-	`istruzione bla, x ,bla`
+	`istruzione bla, x ,bla```
 	**1 STALLI**
 
 **CASO 2:**
-	`istruzione x, bla , bla
-	`istruzione bla,  x  , bla`
-	 **2 STALLI**
+	```istruzione x, bla , bla
+	`istruzione bla,  x  , bla```
+	**2 STALLI**
 
 ----
 
@@ -71,34 +71,34 @@
 
 **SEMPRE VALIDO:**
 	se beq/s salta
-	`beq ... FDXMW`
+	```beq ... FDXMW`
 	`slli F`
-	`addi FDXMW`
+	`addi FDXMW```
 	**1 STALLO**
 
 **CASO 1F:**
-	`la , li`
-	`istruzione`  $\neq$ `beq, bqe...`
+	```la , li
+	`istruzione`  $\neq$ `beq, bqe...```
 	**NO STALLI**
 
 **CASO 2F:**
-	`lb,lw,lh`
-	`istrzione` $\neq$ `beq,bqe...`
+	```lb,lw,lh
+	istrzione` $\neq$ `beq,bqe...```
 	**1 STALLO**
 
 **CASO 3F:**
-	`la,li, R-Type
-	`istruzione beq,bge... `
+	```la,li, R-Type
+	`istruzione beq,bge... ```
 	**1 STALLO**
 
 **CASO 4F:**
-	`lw,lh,lb
-	`istruzione beq,bge...`
+	```lw,lh,lb
+	istruzione beq,bge...```
 	**2 STALLI**
 
 **CASO 5F:**
-	`lw,lb,lh x
-	`bla, bla, bla
-	`istruzione beq,bge...`
+	```lw,lb,lh x
+    bla, bla, bla
+	istruzione beq,bge...```
 	**1 STALLO**
 

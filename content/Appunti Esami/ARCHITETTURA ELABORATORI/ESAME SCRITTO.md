@@ -52,15 +52,15 @@
 
 #### NO-FORWARDING 
 
-**CASO 1**:
-	```istruzione x, bla , bla` <br>
-	`bla bla bla` <br>
-	`istruzione bla, x ,bla` <br>
-	**1 STALLI**<br>```
+>[!example] **CASO 1**:
+	istruzione x, bla , bla
+	bla bla bla 
+	istruzione bla, x ,bla 
+	**1 STALLI**
 
-**CASO 2:**
-	```istruzione x, bla , bla
-	`istruzione bla,  x  , bla```
+>[!example] **CASO 2:**
+	istruzione x, bla , bla
+	istruzione bla,  x  , bla
 	**2 STALLI**
 
 ----
@@ -69,36 +69,36 @@
 
 **CASO 1/2 PRECEDENTI DA IGNORARE**
 
-**SEMPRE VALIDO:**
+>[!example] **SEMPRE VALIDO:**
 	se beq/s salta
-	```beq ... FDXMW`
-	`slli F`
-	`addi FDXMW```
+	beq ... FDXMW
+	slli F
+	addi FDXMW
 	**1 STALLO**
 
-**CASO 1F:**
-	```la , li
-	`istruzione`  $\neq$ `beq, bqe...```
+>[!example] **CASO 1F:**
+	la , li
+	istruzione  ≠ beq, bqe...
 	**NO STALLI**
 
-**CASO 2F:**
-	```lb,lw,lh
-	istrzione` $\neq$ `beq,bqe...```
+>[!example] **CASO 2F:**
+	b,lw,lh
+	istrzione ≠ beq,bqe...
 	**1 STALLO**
 
-**CASO 3F:**
-	```la,li, R-Type
-	`istruzione beq,bge... ```
+
+>[!example] **CASO 3F:**
+	la,li, R-Type
+	istruzione beq,bge... 
 	**1 STALLO**
 
-**CASO 4F:**
-	```lw,lh,lb
-	istruzione beq,bge...```
+>[!example] **CASO 4F:**
+	lw,lh,lb
+	istruzione beq,bge...
 	**2 STALLI**
 
-**CASO 5F:**
-	```lw,lb,lh x
-    bla, bla, bla
-	istruzione beq,bge...```
+>[!example] **CASO 5F:**
+	lw,lb,lh x
+	bla, bla, bla
+	istruzione beq,bge...
 	**1 STALLO**
-

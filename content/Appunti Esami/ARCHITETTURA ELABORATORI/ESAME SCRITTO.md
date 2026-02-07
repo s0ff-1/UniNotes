@@ -53,10 +53,10 @@
 #### NO-FORWARDING 
 
 **CASO 1**:
-	```istruzione x, bla , bla`
-	`bla bla bla`
-	`istruzione bla, x ,bla```
-	**1 STALLI**
+	```istruzione x, bla , bla` <br>
+	`bla bla bla` <br>
+	`istruzione bla, x ,bla` <br>
+	**1 STALLI**<br>```
 
 **CASO 2:**
 	```istruzione x, bla , bla

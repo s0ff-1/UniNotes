@@ -52,16 +52,20 @@
 
 #### NO-FORWARDING 
 
->[!example] **CASO 1**:
+>[!example] **CASO 1:**
 	istruzione x, bla , bla
 	bla bla bla 
 	istruzione bla, x ,bla 
-	**1 STALLI**
+	
+>[!warning] 1 STALLI
+
+<br>
 
 >[!example] **CASO 2:**
 	istruzione x, bla , bla
 	istruzione bla,  x  , bla
-	**2 STALLI**
+	
+>[!warning] 2 STALLI
 
 ----
 
@@ -69,36 +73,47 @@
 
 **CASO 1/2 PRECEDENTI DA IGNORARE**
 
->[!example] **SEMPRE VALIDO:**
+>[!success] **SEMPRE VALIDO:**
 	se beq/s salta
 	beq ... FDXMW
 	slli F
 	addi FDXMW
-	**1 STALLO**
+
+>[!warning] 1 STALLO
+
+<br>
 
 >[!example] **CASO 1F:**
 	la , li
 	istruzione  ≠ beq, bqe...
-	**NO STALLI**
+	
+>[!warning] NO STALLI
+<br>
 
 >[!example] **CASO 2F:**
 	b,lw,lh
 	istrzione ≠ beq,bqe...
-	**1 STALLO**
-
+    
+>[!warning] 1 STALLO
+<br>
 
 >[!example] **CASO 3F:**
 	la,li, R-Type
 	istruzione beq,bge... 
-	**1 STALLO**
+	
+>[!warning] 1 STALLO
+<br>
 
 >[!example] **CASO 4F:**
 	lw,lh,lb
 	istruzione beq,bge...
-	**2 STALLI**
+	
+>[!warning] 2 STALLI
+<br>
 
 >[!example] **CASO 5F:**
 	lw,lb,lh x
 	bla, bla, bla
 	istruzione beq,bge...
-	**1 STALLO**
+	
+>[!warning] 1 STALLO

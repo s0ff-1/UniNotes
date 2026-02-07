@@ -1,3 +1,5 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+.callout, img, pre, code, .graph, .search-container {
+  border-radius: 12px;
+}

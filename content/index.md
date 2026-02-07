@@ -1,6 +1,10 @@
 ---
-title: UniNotes
-draft: false
-tags:
-Location: Sapienza University
+"Title:": UniNotes
+Uni: Sapienza University
 ---
+----
+### TEACHINGS COVERED:
+
+- ARCHITETTURA ELABORATORI
+- SISTEMI OPERATIVI 1
+

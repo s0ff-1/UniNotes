@@ -5,10 +5,11 @@ Uni: Sapienza University
 ----
 ### TEACHINGS COVERED:
 
-#### ARCHITETTURA:
+#### ARCHITETTURA ELABORATORI:
 - [[ESAME SCRITTO]]
 
 #### SISTEMI OPERATIVI 1:
+- [[THREAD]]
 - [[DISPOSITIVI I-O]]
 - [[ESERCIZI]]
 

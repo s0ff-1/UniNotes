@@ -74,6 +74,7 @@
 **CASO 1/2 PRECEDENTI DA IGNORARE**
 
 >[!success] **SEMPRE VALIDO:**
+
 	se beq/s salta
 	beq ... FDXMW
 	slli F
@@ -84,6 +85,7 @@
 <br>
 
 >[!example] **CASO 1F:**
+
 	la , li
 	istruzione  ≠ beq, bqe...
 	
@@ -91,6 +93,7 @@
 <br>
 
 >[!example] **CASO 2F:**
+
 	b,lw,lh
 	istrzione ≠ beq,bqe...
     
@@ -98,6 +101,7 @@
 <br>
 
 >[!example] **CASO 3F:**
+
 	la,li, R-Type
 	istruzione beq,bge... 
 	
@@ -105,6 +109,7 @@
 <br>
 
 >[!example] **CASO 4F:**
+
 	lw,lh,lb
 	istruzione beq,bge...
 	
@@ -112,6 +117,7 @@
 <br>
 
 >[!example] **CASO 5F:**
+
 	lw,lb,lh x
 	bla, bla, bla
 	istruzione beq,bge...

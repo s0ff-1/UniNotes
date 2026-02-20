@@ -75,7 +75,7 @@
 
 >[!success] **SEMPRE VALIDO:**
 
-	se beq/s salta
+	se beq/j salta
 	beq ... FDXMW
 	slli F
 	addi FDXMW
@@ -86,7 +86,7 @@
 
 >[!example] **CASO 1F:**
 
-	la , li
+	la,li
 	istruzione  ≠ beq, bqe...
 	
 >[!warning] NO STALLI
@@ -94,7 +94,7 @@
 
 >[!example] **CASO 2F:**
 
-	b,lw,lh
+	lb,lw,lh
 	istrzione ≠ beq,bqe...
     
 >[!warning] 1 STALLO
@@ -102,7 +102,7 @@
 
 >[!example] **CASO 3F:**
 
-	la,li, R-Type
+	la,li,R-Type,I-Type
 	istruzione beq,bge... 
 	
 >[!warning] 1 STALLO

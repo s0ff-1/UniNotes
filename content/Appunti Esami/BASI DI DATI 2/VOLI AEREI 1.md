@@ -1,0 +1,24 @@
+
+
+### 1. **AEROPORTO**
+	1.1. CODICE
+	1.2. NOME
+	1.3. NAZIONE
+
+---
+### **2. CITTÀ**
+	2.1. NOME
+	2.2. NUMERO ABITANTI
+
+----
+### **3. COMPAGNIA AEREA**
+	3.1. NOME
+	3.2. ANNO DI FONDAZIONE
+
+---
+### **4. VOLI**
+	4.1. CODICE
+	4.2. ORARIO DI PARTENZA
+	4.3 ORARIO DI ARRIVO
+
+---

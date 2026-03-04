@@ -1,0 +1,33 @@
+
+
+### **1.  STUDENTE**
+	1.1. NOME
+	1.2. CODICE FISCALE
+	1.3. MATRICOLA
+	1.4. DATA DI NASCITA
+	1.5. ANNO D'ISCRIZIONE
+
+---
+### **2. CITTÀ**
+	2.1. NOME
+	2.2. REGIONE
+
+---
+### **3. PROFESSORE**
+	3.1. NOME
+	3.2. CODICE FISCALE
+	3.3. DATA DI NASCITA
+
+---
+### **4. CORSO DI LAUREA**
+	4.1. NOME
+
+---
+### **5. INSEGNAMENTO**
+	5.1. CODICE
+	5.2. NOME
+	5.3. ORE DI LEZIONE
+
+---
+### **6. FACOLTÀ**
+	6.1. NOME

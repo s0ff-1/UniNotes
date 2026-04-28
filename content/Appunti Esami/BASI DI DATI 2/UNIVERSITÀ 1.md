@@ -5,7 +5,6 @@
 	1.2. CODICE FISCALE
 	1.3. MATRICOLA
 	1.4. DATA DI NASCITA
-	1.5. ANNO D'ISCRIZIONE
 
 ---
 ### **2. CITTÀ**
@@ -31,3 +30,7 @@
 ---
 ### **6. FACOLTÀ**
 	6.1. NOME
+
+---
+### 7.ISCRIZIONE
+	7.1 ANNO ISCRIZIONE

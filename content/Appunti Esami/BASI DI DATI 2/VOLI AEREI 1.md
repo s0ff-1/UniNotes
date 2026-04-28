@@ -3,7 +3,6 @@
 ### 1. **AEROPORTO**
 	1.1. CODICE
 	1.2. NOME
-	1.3. NAZIONE
 
 ---
 ### **2. CITTÀ**
@@ -22,3 +21,5 @@
 	4.3 ORARIO DI ARRIVO
 
 ---
+### 5. NAZIONE
+	5.1 NOME

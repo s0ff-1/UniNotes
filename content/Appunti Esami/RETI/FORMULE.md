@@ -70,7 +70,7 @@
 
 ---
 
-## 4 ### Code e Store-and-Forward 
+## 4 Code e Store-and-Forward 
 
 Nei router a commutazione di pacchetto con approccio _store-and-forward_, il router deve ricevere l'intero pacchetto prima di poterlo ritrasmettere sul link successivo.
 

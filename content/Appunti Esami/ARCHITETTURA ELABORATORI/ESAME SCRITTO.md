@@ -83,7 +83,6 @@
 >[!warning] 1 STALLO
 
 <br>
-
 >[!example] **CASO 1F:**
 
 	la,li

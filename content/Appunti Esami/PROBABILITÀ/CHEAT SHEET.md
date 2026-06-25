@@ -7,6 +7,7 @@
 	Permutazioni Con Ripetizione (es. anagrammi con lettere doppie): 
 	$$\frac{n!}{k_1! \times k_2!...}$$
 	Combinazioni Semplici (scelta di $k$ elementi su $n$ senza ordine): $$$$$$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
+	Coefficiente Multinomiale (ordina $n$ elementi in $m$ gruppi di dimensione $k$): $$\binom{n}{k_1, k_2, \dots, k_m} = \frac{n!}{k_1! \cdot k_2! \cdot \dots \cdot k_m!}$$
 2. ASSIOMI E OPERAZIONI SUGLI EVENTI
 	Unione di due eventi: $\mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)$
 	Unione di tre eventi: $\mathbb{P}(A \cup B \cup C) = \mathbb{P}(A) + \mathbb{P}(B) + \mathbb{P}(C) - \mathbb{P}(A \cap B) - \mathbb{P}(A \cap C) - \mathbb{P}(B \cap C) + \mathbb{P}(A \cap B \cap C)$
@@ -37,6 +38,8 @@
 1. Formule Generali:
 	Valore Atteso: $\mathbb{E}(X) = \sum x \cdot \mathbb{P}(X=x)$
 	Varianza: $Var(X) = \mathbb{E}(X^2) - (\mathbb{E}(X))^2$
+2. Proprietà varie:
+	- $Var(cX) = c^2 \times Var(X)$
 
 Tabella delle Distribuzioni Notevoli:
 
@@ -90,16 +93,21 @@ Sia $S_n = \sum_{i=1}^n X_i$ una somma di $n$ variabili aleatorie indipendenti, 
 	Per la Media Campionaria **$Y$:** $\mathbb{E}(Y) = \mu$ e $Var(Y) = \frac{\sigma^2}{n}$
 
 2. DISUGUAGLIANZA DI CHEBYSHEV
-	Forma per la Minorazione: $$\mathbb{P}(|Y - \mu| \le \epsilon) \ge 1 - \frac{Var(Y)}{\epsilon^2}$$
+	Forma per la Minorazione: $pr$$
 	Forma per la Maggiorazione: $$\mathbb{P}(|Y - \mu| > \epsilon) \le \frac{Var(Y)}{\epsilon^2}$$
 
 3. TEOREMA CENTRALE DEL LIMITE (TCL) E GAUSSIANA
 	Standardizzazione della Somma **$S_n$:**
-
-$$Z = \frac{S_n - n\mu}{\sigma\sqrt{n}}$$
+	$$Z = \frac{S_n - n\mu}{\sigma\sqrt{n}}$$
+	Esempio esercizio esame:
+	1. da: $$\mathbb{P}(|S_{81} - 18| \le 5\sqrt{5})$$ abbiamo già parte di $Z$: $$Z = \frac{S_n - \mathbb{E}(S_n)}{\sqrt{Var(S_n)}}$$otteniamo: $$\mathbb{P}\left(\frac{|S_{81} - 18|}{\sqrt{50}} \le \frac{5\sqrt{5}}{\sqrt{50}}\right)$$val. assoluto di $Z$: $$\mathbb{P}\left(|Z| \le \frac{5\sqrt{5}}{\sqrt{50}}\right)$$
 	Calcolo delle Probabilità in un intervallo **$[a, b]$:**
 
 $$\mathbb{P}(a < S_n \le b) \approx \Phi\left(\frac{b - n\mu}{\sigma\sqrt{n}}\right) - \Phi\left(\frac{a - n\mu}{\sigma\sqrt{n}}\right)$$
-	Regole per le tavole $\Phi$:
-	- Valori negativi: $\Phi(-z) = 1 - \Phi(z)$
-    - Coda destra (maggiore di): $\mathbb{P}(Z > z) = 1 - \Phi(z)$
+	Esempio esercizio esame: $$\mathbb{P}(-1.58 \le Z \le 1.58) = 2\Phi(1.58) - 1$$
+	otteniamo: $$2 \cdot 0.9429 - 1 = 1.8858 - 1 = \mathbf{0.8858}$$
+
+
+Regole per le tavole $\Phi$:
+- Valori negativi: $\Phi(-z) = 1 - \Phi(z)$
+- Coda destra (maggiore di): $\mathbb{P}(Z > z) = 1 - \Phi(z)$

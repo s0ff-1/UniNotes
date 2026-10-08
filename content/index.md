@@ -13,3 +13,12 @@ Uni: Sapienza University
 - [[DISPOSITIVI I-O]]
 - [[ESERCIZI]]
 
+#### CALCOLO DELLE PROBABILITÀ
+- [[CHEAT SHEET]]
+
+#### RETI
+- [[FORMULE]]
+
+#### AUTOMI:
+- [[CAPITOLO 1]]
+ 

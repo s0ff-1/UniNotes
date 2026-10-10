@@ -5,7 +5,7 @@ ___
  **Finite Automata** are models for computers with an extremely limited amount of memory. An Automata receives an input string and recognizes a language. From the graphical point it is represented by a **State Diagram**.
 
 >[!example] DEFINITION:
->A **Finite Automaton DFAs** is a **5-tuple** ($Q, \Sigma, \delta, q_0, F)$), where
+>A **Finite Automaton DFAs** is a **5-tuple** ($Q, \Sigma, \delta, q_0, F$), where
 >	1. $Q$ is a finite set called the **States**,
 >	2. $\Sigma$ is a finte set called the **Alphabet**,
 >	3. $\delta : Q \times \Sigma \longrightarrow Q$ is the **Transition Function**,
@@ -51,9 +51,13 @@ The **Regular Operations** are mathematical instruments build in a specific way 
 
 >[!example] OPERATIONS:
 >Let $A$ and $B$ be languages. We define the regular operations **union**, **concatenation**, and **star** as follows:
->	1. **Union**: $A \cup B = \{ x \mid x \in A \text{ or }x \in B \}$.
+>	1.**Union**: $A \cup B = \{ x \mid x \in A \text{ or }x \in B \}$.
 >	2.**Concatenation**:  $A \circ B = \{ xy \mid x \in A \text{ and }y \in B \}$
 >	3.**Star**: $A^\ast = \{ x_1x_2 ...x_k \mid k \geq 0, \ \forall \ x_i \in A \}$
+
+###### THEOREMS LINKED: 
+- [[TEOREMI - CAPITOLO 1#THEOREM 1.25 CLOSURE OF THE UNION OPERATION - (PAGE 45)|THEOREM 1.25]]
+- [[TEOREMI - CAPITOLO 1#THEOREM 1.26 CLOSURE OF THE CONCATENATION - (PAGE 47)|THEOREM 1.26]]
 
 ---
 
@@ -92,6 +96,11 @@ graph LR
     
     style start fill:none,stroke:none
 ```
+
+##### THEOREMS LINKED:
+- [[TEOREMI - CAPITOLO 1#THEOREM 1.39 EQUIVALENCE OF NFAs AND DFAs - (PAGE 55)|THEOREM 1.39]]
+
+
 ---
 
 ##### CLOSURE UNDER THE REGULAR OPERATIONS
@@ -147,7 +156,23 @@ graph LR
 
 
 **After**:
+
 ```mermaid
 graph LR
     $q_1$((qi)) -->|"(R1)(R2)*(R3) U (R4)"| qj((qj))
 ```
+
+---
+
+##### NONREGULAR LANGUAGES
+
+To get full knowledge of the potentialities of DFAs it is necessary to explore their limitations, since there are languages that can't be recognized by any of this DFAs.
+The main problem regards the very limited memory that stops the machine from remembering the past.
+For example we consider the language $B = \{0^n1^n \vert{} n \ge 0\}$. If we were to build an automaton to recognize it, the machine would surely need to keep track of how many '0's were read to compare them with the subsequent '1's.
+Given that the number of '0's could possibly be infinite the automaton would need an infinite number of possibilities and states, and that goes in contradiction with the definition of DFAs itself.
+However the intuition to count can be deceptive. To demonstrate it we consider two languages on the alphabet $\{0,1\}$ :
+
+- $C = \{w \vert{} w \text{ ha un numero uguale di 0 e 1}\}$.
+- $D = \{w \vert{} w \text{ ha un numero uguale di occorrenze di 01 e 10 come sottostringhe}\}$.
+
+At first sight they both seem to ask the machine to count. As expected $C$ is not regular, but surprisingly $D$ is a regular language. To avoid any uncertainty we need to demonstrate with absolute firmness that a language is not regular, and to manage that we use rigorous mathematics and we introduce the Pumping Lemma.

@@ -107,6 +107,11 @@ graph LR
 
 In mathematics and in the theory of computation, a **collection of elements** (a set) it's said **"closed"** under a specific operation if applying the operation to the elements the final result is an object that **stills belong** to the set .
 
+##### THEOREMS LINKED:
+- [[TEOREMI - CAPITOLO 1#THEOREM 1.45 CLOSURE UNDER UNION - (PAGE 59)|THEOREM 1.45]]
+- [[TEOREMI - CAPITOLO 1#THEOREM 1.47 CLOSURE UNDER CONCATENATION - (PAGE 60)|THEOREM 1.47]]
+- [[TEOREMI - CAPITOLO 1#THEOREM 1.49 CLOSURE UNDER STAR - (PAGE 62)|THEOREM 1.49]]
+
 ---
 
 ##### REGULAR EXPRESSIONS

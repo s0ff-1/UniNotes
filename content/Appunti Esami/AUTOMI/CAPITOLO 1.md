@@ -131,6 +131,11 @@ Similarly we can use the **regular expressions** seen before to create  expressi
 >[!warning] 
 >$\varepsilon$ and $\emptyset$ are not the same thing, the first one comes with **one** empty string and the second indicates an **empty language** so **no strings**.
 
+##### THEOREMS LINKED:
+- [[TEOREMI - CAPITOLO 1#THEOREM 1.54 REGULAR EXPRESSION - (PAGE 66)|THEOREM 1.54]]
+- [[TEOREMI - CAPITOLO 1#LEMMA 1.60 OTHER DIRECTION OF 1.54 - (PAGE 69)|LEMMA 1.60]]
+- [[TEOREMI - CAPITOLO 1#CLAIM 1.65 - (PAGE 74)|CLAIM 1.65]]
+
 ---
 
 ##### GENERALIZED NONDETERMINISTIC FINITE AUTOMATON (GNFAs)
@@ -181,3 +186,6 @@ However the intuition to count can be deceptive. To demonstrate it we consider t
 - $D = \{w \vert{} w \text{ ha un numero uguale di occorrenze di 01 e 10 come sottostringhe}\}$.
 
 At first sight they both seem to ask the machine to count. As expected $C$ is not regular, but surprisingly $D$ is a regular language. To avoid any uncertainty we need to demonstrate with absolute firmness that a language is not regular, and to manage that we use rigorous mathematics and we introduce the Pumping Lemma.
+
+##### THEOREMS LINKED:
+- [[TEOREMI - CAPITOLO 1#THEOREM 1.70 PUMPING LEMMA FOR REGULAR LANGUAGES - (PAGE 78)|THEOREM 1.70]]

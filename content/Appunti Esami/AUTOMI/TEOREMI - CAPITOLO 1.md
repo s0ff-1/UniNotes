@@ -184,7 +184,8 @@ Construct $N = (Q, \Sigma, \delta, q_0, F)$ to recognize $A^*_1$.
 1. $Q = \{q_0\} \cup Q_1$.
 2. $q_0$ is the new start state.
 3. $F = \{q_0\} \cup F_1$.
-4. Define $\delta$ so that $\forall q\in Q \land \forall a \in \Sigma_{\varepsilon}$, $$
+4. Define $\delta$ so that $\forall q\in Q \land \forall a \in \Sigma_{\varepsilon}$, 
+$$
 \delta(q, a) =
 \begin{cases} 
 \delta_1(q, a) & q \in Q_1 \text{ and } q \notin F_1 \\ 
@@ -194,6 +195,7 @@ Construct $N = (Q, \Sigma, \delta, q_0, F)$ to recognize $A^*_1$.
 \emptyset & q = q_0 \text{ and } a \neq \varepsilon
 \end{cases}
 $$
+
 
 ---
 
@@ -225,7 +227,7 @@ graph LR
 2. $R = \varepsilon$. Then $L(R) = \{\varepsilon\}$, and the following NFA recognizes $L(R)$.
    Formally we have $N = (\{q_1\}, \Sigma, \delta, q_1, \{q_1\})$
 
-```
+```mermaid
 graph LR
     start(( )) --> q1(((q1)))
     

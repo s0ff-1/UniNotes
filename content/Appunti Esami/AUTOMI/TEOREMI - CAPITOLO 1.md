@@ -116,6 +116,7 @@ Construct $N = (Q, \Sigma, \delta, q_0, F)$ to recognize $A_1 \cup A_2$.
 \end{cases}
 $$
 
+
 ---
 
 ##### THEOREM 1.47: CLOSURE UNDER CONCATENATION - (PAGE 60)

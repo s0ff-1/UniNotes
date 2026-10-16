@@ -197,3 +197,35 @@ A PDA $M = (Q, \Sigma, \Gamma, \delta, q_0, F)$ **accepts** input $w$ if $w$ can
 1. $r_0 = q_0$ and $s_0 = \varepsilon$ (start properly, in the start state with an empty stack);
 2. for $i = 0, \dots, m-1$, we have $(r_{i+1}, b) \in \delta(r_i, w_{i+1}, a)$, where $s_i = at$ and $s_{i+1} = bt$ for some $a, b \in \Gamma_\varepsilon$ and $t \in \Gamma^*$ (move properly according to the state, stack, and next input symbol);
 3. $r_m \in F$ (an accept state occurs at the input end).
+
+**Some Examples**:
+
+>[!info] EXAMPLE :
+>The following is the formal description of the PDA that recognizes $\{0^n1^n \mid n \ge 0\}$. Let $M_1 = (Q, \Sigma, \Gamma, \delta, q_1, F)$, where
+>$$Q = \{q_1, q_2, q_3, q_4\}, \quad \Sigma = \{0, 1\}, \quad \Gamma = \{0, \$\}, \quad F = \{q_1, q_4\},$$
+>and $\delta$ is given by the following table (blank entries signify $\emptyset$):
+
+
+We write "**$a, b \to c$**" on an arrow to signify that when the machine is reading an $a$ from the input, it may replace the symbol $b$ on the top of the stack with a $c$. Any of $a$, $b$, $c$ may be $\varepsilon$: if $a$ is $\varepsilon$ the machine doesn't read the input, if $b$ is $\varepsilon$ it doesn't read/pop the stack, and if $c$ is $\varepsilon$ it doesn't write on the stack.
+
+| State   | Input           | Stack Top       | Move                      |
+| ------- | --------------- | --------------- | ------------------------- |
+| $$q_1$$ | $$\varepsilon$$ | $$\varepsilon$$ | $$q_2, \text{push } $\ $$ |
+| $$q_2$$ | $$0$$           | $$\varepsilon$$ | $$q_2, \text{push } 0 $$  |
+| $$q_2$$ | $$1$$           | $$0$$           | $$q_3, \text{pop } 0 $$   |
+| $$q_3$$ | $$1$$           | $$0$$           | $$q_3, \text{pop } 0 $$   |
+| $$q_3$$ | $$\varepsilon$$ | $$\$$$          | $$q_4, \text{pop } $\ $$  |
+
+**State Diagram for $M_1$** :
+
+```mermaid
+graph LR
+    start(( )) --> q1((q1))
+    q1 -->|"ε, ε→$"| q2((q2))
+    q2 -->|"0, ε→0"| q2
+    q2 -->|"1, 0→ε"| q3((q3))
+    q3 -->|"1, 0→ε"| q3
+    q3 -->|"ε, $→ε"| q4(((q4)))
+
+    style start fill:none,stroke:none
+```

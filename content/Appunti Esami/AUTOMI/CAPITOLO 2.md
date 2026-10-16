@@ -131,6 +131,9 @@ Sometimes, when we have an ambiguous grammar, we can find an unambiguous grammar
 
 In contrast, grammar $G_4$ generates exactly the same language, but every generated string has a unique parse tree. Hence $G_4$ is **unambiguous**, whereas $G_5$ is **ambiguous**. Grammar $G_2$ is another example of an ambiguous grammar: the sentence `the girl touches the boy with the flower` has two different derivations.
 
+> [!warning] When we say that a grammar generates a string ambiguously, we mean that the string has two different **parse trees**, not two different **derivations**. Two derivations may differ merely in the order in which they replace variables, yet not in their overall structure. To concentrate on structure we define a **leftmost derivation**, in which at every step the **leftmost** remaining variable is the one replaced.
+
+
 ---
 
 ##### CHOMSKY NORMAL FORM
@@ -145,3 +148,52 @@ When working with context-free grammars it is often convenient to have them in a
 
 ###### THEOREMS LINKED:
 - [[TEOREMI - CAPITOLO 2#THEOREM 2.9 CHOMSKY NORMAL FORM - (PAGE 109)|THEOREM 2.9]]
+
+---
+
+##### PUSHDOWN AUTOMATA
+
+**Pushdown automata (PDAs)** are a new computational model: they are like nondeterministic finite automata but with an extra component called a **stack**. The stack provides additional memory beyond the finite amount available in the control, and it allows PDAs to recognize some **nonregular** languages.
+
+PDAs are **equivalent in power to context-free grammars**. This equivalence is useful because it gives us two options for proving that a language is context free: give a CFG generating it, or a PDA recognizing it. Certain languages are more easily described in terms of **generators**, whereas others are more easily described by **recognizers**.
+
+A PDA can write symbols on the stack and read them back later. Writing a symbol "pushes down" the other symbols — this is called **pushing**; reading and removing the symbol on top of the stack is called **popping**. All access to the stack, for both reading and writing, is done **only at the top**, so a stack is a "**last in, first out**" (LIFO) storage device. A stack is valuable because it can hold an **unlimited** amount of information: this is what lets a PDA recognize $\{0^n1^n \mid n \ge 0\}$, a language no finite automaton can.
+
+
+> [!example] INFORMAL DESCRIPTION:
+> Read symbols from the input. As each 0 is read, push it onto the stack. As soon as 1s are seen, pop a 0 off the stack for each 1 read. If reading the input is finished exactly when the stack becomes empty of 0s, accept the input. If the stack becomes empty while 1s remain, or if the 1s are finished while the stack still contains 0s, or if any 0s appear in the input following 1s, reject the input.
+
+**GRAPH OF A PDA**:
+
+```mermaid
+graph TD
+    C["state control"] --> T1["a"]
+    T1 --> T2["a"]
+    T2 --> T3["b"]
+    T3 --> T4["b"]
+    T4 --- IN["input"]
+    C --> S1["x"]
+    S1 --> S2["y"]
+    S2 --> S3["z"]
+    S3 --- ST["stack"]
+```
+
+
+---
+
+##### FORMAL DEFINITION OF A PUSHDOWN AUTOMATA
+
+>[!example] DEFINITION:
+>A **pushdown automaton** is a **6-tuple** $(Q, \Sigma, \Gamma, \delta, q_0, F)$, where
+>1. $Q$ is the finite set of the **states**,
+>2. $\Sigma$ is the finite set of the **input alphabet**,
+>3. $\Gamma$ is the finite set of the **stack alphabet**,
+>4. $\delta : Q \times \Sigma_\varepsilon \times \Gamma_\varepsilon \longrightarrow \mathcal{P}(Q\times \Gamma_\varepsilon)$ is the **transition function**,
+>5. $q_0 \in Q$ is the **start state**, and
+>6. $F \subseteq Q$ is the set of the **accept states**.
+
+
+A PDA $M = (Q, \Sigma, \Gamma, \delta, q_0, F)$ **accepts** input $w$ if $w$ can be written as $w = w_1w_2 \cdots w_m$, where each $w_i \in \Sigma_\varepsilon$, and sequences of states $r_0, r_1, \dots, r_m \in Q$ and strings $s_0, s_1, \dots, s_m \in \Gamma^*$ exist that satisfy the following three conditions (the strings $s_i$ represent the stack contents on the accepting branch):
+1. $r_0 = q_0$ and $s_0 = \varepsilon$ (start properly, in the start state with an empty stack);
+2. for $i = 0, \dots, m-1$, we have $(r_{i+1}, b) \in \delta(r_i, w_{i+1}, a)$, where $s_i = at$ and $s_{i+1} = bt$ for some $a, b \in \Gamma_\varepsilon$ and $t \in \Gamma^*$ (move properly according to the state, stack, and next input symbol);
+3. $r_m \in F$ (an accept state occurs at the input end).

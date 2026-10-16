@@ -22,4 +22,8 @@ Uni: Sapienza University
 #### AUTOMI:
 - [[CAPITOLO 1]]
 - [[TEOREMI - CAPITOLO 1]]
- 
+ - [[CAPITOLO 2]]
+ - [[TEOREMI - CAPITOLO 2]]
+
+#### OGA
+- [[OGA - Lezioni 1 - 5]]

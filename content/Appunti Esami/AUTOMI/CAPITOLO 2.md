@@ -229,3 +229,16 @@ graph LR
 
     style start fill:none,stroke:none
 ```
+
+---
+
+##### EQUIVALENCE WITH CONTEXT-FREE GRAMMARS
+
+Context-free grammars and pushdown automata are **equivalent in power**: both describe exactly the class of context-free languages. We can convert any CFG into a PDA that recognizes the same language, and vice versa.
+
+##### THEOREMS LINKED:
+- [[TEOREMI - CAPITOLO 2#THEOREM 2.20 EQUIVALENCE OF CFGs AND PDAs - (PAGE 117)|THEOREM 2.20]]
+- [[TEOREMI - CAPITOLO 2#LEMMA 2.21 CFL → PDA - (PAGE 117)|LEMMA 2.21]]
+- [[TEOREMI - CAPITOLO 2#LEMMA 2.27 PDA → CFL - (PAGE 121)|LEMMA 2.27]]
+
+---

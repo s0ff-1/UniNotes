@@ -1094,7 +1094,7 @@ $$\textbf{ROI} > \textbf{WACC}$$
 $$WACC = C_{MP} \cdot \frac{MP}{(MP + D)} + C_D \cdot \frac{D}{(MP + D)}$$
 
 dove **MP** = mezzi propri, **D** = debito, **C_MP** = costo del capitale di rischio,
-**C_D** = costo del capitale di credito (tasso d'interesse).
+**C_D** = costo del capitale di debito (tasso d'interesse).
 
 **CAPM (Capital Asset Pricing Model):** serve a stimare il costo del capitale di rischio.
 

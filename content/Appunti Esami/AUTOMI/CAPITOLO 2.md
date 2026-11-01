@@ -240,5 +240,30 @@ Context-free grammars and pushdown automata are **equivalent in power**: both de
 - [[TEOREMI - CAPITOLO 2#THEOREM 2.20 EQUIVALENCE OF CFGs AND PDAs - (PAGE 117)|THEOREM 2.20]]
 - [[TEOREMI - CAPITOLO 2#LEMMA 2.21 CFL → PDA - (PAGE 117)|LEMMA 2.21]]
 - [[TEOREMI - CAPITOLO 2#LEMMA 2.27 PDA → CFL - (PAGE 121)|LEMMA 2.27]]
+- [[TEOREMI - CAPITOLO 2#CLAIM 2.30 FROM DERIVATION TO COMPUTATION - (PAGE 123)|CLAIM 2.30]]
+- [[TEOREMI - CAPITOLO 2#CLAIM 2.31 FROM COMPUTATION TO DERIVATION - (PAGE 123)|CLAIM 2.31]]
 
 ---
+
+##### NON-CONTEXT-FREE LANGUAGES
+
+In this section we present a technique for proving that certain languages are **not context free**. Recall that in [[CAPITOLO 1#NONREGULAR LANGUAGES|PUMPING LEMMA FOR REGULAR LANGUAGES]] we introduced the **pumping lemma** for showing that certain languages are not regular. Here we present a similar pumping lemma for context-free languages. It states that every context-free language has a special value called the **pumping length** such that all longer strings in the language can be "**pumped**." This time the meaning of *pumped* is more complex: the string is divided into **five parts** so that the **second and fourth parts** may be repeated together any number of times and the resulting string still remains in the language.
+
+>[!info] THEOREM 2.34 - PUMPING LEMMA FOR CONTEXT-FREE LANGUAGES:
+> If $A$ is a context-free language, then there is a number $p$ (the **pumping length**) where, if $s$ is any string in $A$ of length at least $p$, then $s$ may be divided into five pieces $s = uvxyz$ satisfying the conditions
+> 	1. for each $i \ge 0$, $uv^ixy^iz \in A$,
+> 	2. $|vy| > 0$, and
+> 	3. $|vxy| \le p$.
+
+When $s$ is being divided into $uvxyz$, condition 2 says that either $v$ or $y$ is not the empty string — otherwise the theorem would be trivially true. Condition 3 says that the pieces $v$, $x$, and $y$ together have length at most $p$; it is a technical condition that is sometimes useful when proving that a language is not context free.
+
+**PROOF IDEA**: Let $A$ be a CFL and $G$ a CFG generating it. A sufficiently long string $s \in A$ has a **very tall parse tree**: some long path from the start variable to a leaf contains a variable $R$ that **repeats** (pigeonhole principle). This repetition lets us replace the subtree under the **second** occurrence of $R$ with the subtree under the **first** occurrence, still obtaining a legal parse tree. Cutting $s$ into five pieces $uvxyz$ as in Figure 2.35, we may repeat the second and fourth pieces together and stay in the language: $uv^ixy^iz \in A$ for every $i \ge 0$.
+
+![[figure2.35.png]]
+
+
+> [!info] In the original tree, the **upper** occurrence of $R$ generates $vxy$, while the **lower** occurrence generates only $x$. Replacing the lower subtree by a copy of the upper one gives $uv^2xy^2z$ (**pump up**); replacing the upper subtree by the lower one gives $uxz$ (**pump down**).
+
+
+##### THEOREMS LINKED:
+- [[]]

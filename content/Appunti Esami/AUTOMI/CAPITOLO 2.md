@@ -266,4 +266,63 @@ When $s$ is being divided into $uvxyz$, condition 2 says that either $v$ or $y$ 
 
 
 ##### THEOREMS LINKED:
-- [[]]
+- [[TEOREMI - CAPITOLO 2#THEOREM 2.34 PUMPING LEMMA FOR CONTEXT-FREE LANGUAGES - (PAGE 125)|THEOREM 2.34]]
+
+
+---
+
+##### DETERMINISTIC CONTEXT-FREE LANGUAGES
+
+Unlike finite automata, **nondeterministic PDAs are more powerful than deterministic PDAs**. The languages recognizable by deterministic pushdown automata (**DPDAs**) are called **deterministic context-free languages (DCFLs)**. This subclass is important in practice (compilers, parsing), because parsing is generally easier for DCFLs than for CFLs.
+
+In a DPDA there is **at most one way to proceed** at each step. Defining DPDAs is more delicate than DFAs, because a DPDA may read an input symbol without popping a stack symbol, and vice versa. We therefore allow **ε-moves**:
+- **ε-input moves**: $\delta(q, \varepsilon, x)$ — no input read;
+- **ε-stack moves**: $\delta(q, a, \varepsilon)$ — no stack pop;
+- both together: $\delta(q, \varepsilon, \varepsilon)$.
+
+If a DPDA can make an ε-move in a situation, it is **prohibited** from making a move that processes a symbol in that same situation; otherwise multiple valid branches could occur.
+
+> [!example] DEFINITION:
+> A **deterministic pushdown automaton** is a **6-tuple** $(Q, \Sigma, \Gamma, \delta, q_0, F)$, where $Q, \Sigma, \Gamma, F$ are finite sets, and
+> 	1. $Q$ is the set of the **states**,
+> 	2. $\Sigma$ is the **input alphabet**,
+> 	3. $\Gamma$ is the **stack alphabet**,
+> 	4. $\delta : Q \times \Sigma_\varepsilon \times \Gamma_\varepsilon \longrightarrow (Q \times \Gamma_\varepsilon) \cup \{\emptyset\}$ is the **transition function**,
+> 	5. $q_0 \in Q$ is the **start state**, and
+> 	6. $F \subseteq Q$ is the set of the **accept states**.
+>
+> For every $q \in Q$, $a \in \Sigma$, $x \in \Gamma$, **exactly one** of $\delta(q,a,x)$, $\delta(q,a,\varepsilon)$, $\delta(q,\varepsilon,x)$, $\delta(q,\varepsilon,\varepsilon)$ is not $\emptyset$.
+
+A DPDA has exactly one legal move whenever its stack is nonempty. If the stack is empty, it can move only if the transition pops $\varepsilon$. Acceptance is as for PDAs: the machine accepts if it enters an accept state after reading the last input symbol.
+
+
+> [!info] EXAMPLE:
+> $\{0^n1^n \mid n \ge 0\}$ is a DCFL: the PDA $M_1$ can be made deterministic by adding transitions for the missing state/input/stack combinations to a **dead state** from which acceptance is impossible. The languages $\{a^ib^jc^k \mid i=j \text{ or } i=k\}$ and $\{ww^R \mid w \in \{0,1\}^*\}$ are **not** DCFLs: they require nondeterminism.
+
+
+> [!info] LEMMA 2.41: Every DPDA has an equivalent DPDA that always reads the entire input string.
+**Proof idea:** a DPDA may fail to read the whole input by **hanging** (trying to pop an empty stack) or **looping** (endless ε-input moves). Hanging is fixed by initializing the stack with a special symbol; looping is fixed by identifying the looping situations and reprogramming the machine to read and reject.
+
+##### THEOREMS LINKED:
+- [[TEOREMI - CAPITOLO 2#LEMMA 2.41 DPDA READS THE WHOLE INPUT - (PAGE 132)|LEMMA 2.41]]
+
+---
+
+
+##### PROPERTIES OF DCFLS
+
+> [!info] THEOREM 2.42: The class of DCFLs is closed under complementation.
+ **Proof idea:** swapping accept and non-accept states works for DFAs, but for DPDAs there is a catch: the machine may enter both accept and non-accept states in a sequence of moves at the end of the input. The fix is to modify the DPDA so that acceptance can occur only in **reading states** (states about to read the next input symbol); then swap acceptance only among reading states.
+
+This implies that **some CFLs are not DCFLs**: any CFL whose complement is not a CFL cannot be a DCFL. For example $A = \{a^ib^jc^k \mid i \ne j \text{ or } j \ne k\}$ is a CFL but not a DCFL. The class of DCFLs is **not** closed under union, intersection, star, or reversal.
+
+**Endmarked inputs.** We sometimes append a special **endmarker** $\dashv$ to the input. For a language $A$, the endmarked language is $A\dashv = \{w\dashv \mid w \in A\}$.
+
+> [!info] THEOREM 2.43: $A$ is a DCFL if and only if $A\dashv$ is a DCFL.
+**Proof idea:** the forward direction is routine (simulate the DPDA and accept at the endmarker). The reverse direction requires simulating $P$ on $A\dashv$ while determining, before each symbol, whether $P$ would accept if that symbol were the endmarker; this needs extra stack information (sets of states).
+
+##### THEOREMS LINKED:
+- [[TEOREMI - CAPITOLO 2#THEOREM 2.42 DCFLs ARE CLOSED UNDER COMPLEMENT - (PAGE 133)|THEOREM 2.42]]
+- [[TEOREMI - CAPITOLO 2#THEOREM 2.43 ENDMARKERS AND DCFLs - (PAGE 134)|THEOREM 2.43]]
+
+---

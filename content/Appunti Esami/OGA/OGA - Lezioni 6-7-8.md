@@ -8,30 +8,30 @@
 ## Indice
 
 ### Parte I — Lezione 6: dal bilancio alla start-up
-1. [Un esempio reale di bilancio: AST SpA 2025](#1-un-esempio-reale-di-bilancio-ast-spa-2025)
-2. [Che cos'è una start-up](#2-che-cosè-una-start-up)
-3. [Start-up e impresa: le differenze](#3-start-up-e-impresa-le-differenze)
-4. [La crescita "hockey stick"](#4-la-crescita-hockey-stick)
-5. [I quattro stadi della crescita](#5-i-quattro-stadi-della-crescita)
-6. [Esempi reali](#6-esempi-reali)
-7. [La start-up in Italia](#7-la-start-up-in-italia)
-8. [Glossario della lezione 6](#8-glossario-della-lezione-6)
+1. [[OGA - Lezioni 6-7-8#1. Un esempio reale di bilancio AST SpA 2025|Un esempio reale di bilancio: AST SpA 2025]]
+2. [[OGA - Lezioni 6-7-8#2. Che cos'è una start-up|Che cos'è una start-up]]
+3. [[OGA - Lezioni 6-7-8#3. Start-up e impresa le differenze|Start-up e impresa: le differenze]]
+4. [[OGA - Lezioni 6-7-8#4. La crescita "hockey stick"|La crescita "hockey stick"]]
+5. [[OGA - Lezioni 6-7-8#5. I quattro stadi della crescita|I quattro stadi della crescita]]
+6. [[OGA - Lezioni 6-7-8#6. Esempi reali|Esempi reali]]
+7. [[OGA - Lezioni 6-7-8#7. La start-up in Italia|La start-up in Italia]]
+8. [[OGA - Lezioni 6-7-8#8. Glossario della lezione 6|Glossario della lezione 6]]
 
 ### Parte II — Lezione 7: dall'idea al modello di business
-9. [L'idea di business: le tre fasi](#9-lidea-di-business-le-tre-fasi)
-10. [La mappa dei trend](#10-la-mappa-dei-trend)
-11. [Pensiero creativo, pensiero critico e brainstorming](#11-pensiero-creativo-pensiero-critico-e-brainstorming)
-12. [Dal Business Model Canvas al modello di business](#12-dal-business-model-canvas-al-modello-di-business)
-13. [Il business model e le 4 caratteristiche](#13-il-business-model-e-le-4-caratteristiche)
-14. [Business model vs business plan](#14-business-model-vs-business-plan)
+9. [[OGA - Lezioni 6-7-8#9. L'idea di business le tre fasi|L'idea di business: le tre fasi]]
+10. [[OGA - Lezioni 6-7-8#10. La mappa dei trend|La mappa dei trend]]
+11. [[OGA - Lezioni 6-7-8#11. Pensiero creativo, pensiero critico e brainstorming|Pensiero creativo, pensiero critico e brainstorming]]
+12. [[OGA - Lezioni 6-7-8#12. Dal Business Model Canvas al modello di business|Dal Business Model Canvas al modello di business]]
+13. [[OGA - Lezioni 6-7-8#13. Il business model e le 4 caratteristiche|Il business model e le 4 caratteristiche]]
+14. [[OGA - Lezioni 6-7-8#14. Business model vs business plan|Business model vs business plan]]
 
 ### Parte III — Lezione 8: i 12 business model
-15. [Panoramica dei 12 modelli](#15-panoramica-dei-12-modelli)
-16. [I modelli in dettaglio](#16-i-modelli-in-dettaglio)
-17. [Schema di sintesi](#17-schema-di-sintesi)
+15. [[OGA - Lezioni 6-7-8#15. Panoramica dei 12 modelli|Panoramica dei 12 modelli]]
+16. [[OGA - Lezioni 6-7-8#16. I modelli in dettaglio|I modelli in dettaglio]]
+17. [[OGA - Lezioni 6-7-8#17. Schema di sintesi|Schema di sintesi]]
 
 ### Glossario
-18. [Glossario delle lezioni 7-8](#18-glossario-delle-lezioni-7-8)
+18. [[OGA - Lezioni 6-7-8#18. Glossario delle lezioni 7-8|Glossario delle lezioni 7-8]]
 
 ---
 

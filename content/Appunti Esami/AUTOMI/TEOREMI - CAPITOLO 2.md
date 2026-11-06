@@ -268,3 +268,56 @@ Divide $s$ into $uvxyz$ according to Figure 2.35. The upper occurrence of $R$ ge
 
 ---
 
+##### LEMMA 2.41 : DPDA READS THE WHOLE INPUT - (PAGE 132)
+#LEMMA5
+
+**THESIS**: Every DPDA has an equivalent DPDA that always reads the entire input string.
+
+**PROOF IDEA**: A DPDA may fail to read the whole input by **hanging** (trying to pop an empty stack) or by **looping** (endless ε-input moves). Hanging is fixed by initializing the stack with a special symbol: if it is popped before the end, the DPDA reads to the end and rejects. Looping is fixed by identifying the looping situations and reprogramming the machine to read and reject.
+
+**PROOF**:
+Let $P = (Q, \Sigma, \Gamma, \delta, q_0, F)$ be a DPDA. Add a new start state $q_{start}$, an accept state $q_{accept}$, a reject state $q_{reject}$, and auxiliary states.
+1. **Accepting states persist until the next input symbol:**For each $q \in Q$ add a copy $q_a$; if $\delta(q,\varepsilon,x) = (r,y)$, set $\delta(q_a,\varepsilon,x) = (r_a,y)$, and if $q \in F$ also set $\delta(q,\varepsilon,x) = (r_a,y)$. For $a \in \Gamma$, if $\delta(q,a,x) = (r,y)$, set $\delta(q_a,a,x) = (r,y)$.
+2. **No hanging:** Set $\delta(q_{start},\varepsilon,\varepsilon) = (q_0,\$)$. If $P$ sees $\$$ in a non-accepting state, it enters $q_{reject}$ and scans to the end; if it sees $\$$ in an accepting state, it enters $q_{accept}$, and if input remains it enters $q_{reject}$ and scans to the end.
+3. **No looping:** For $q \in Q$ and $x \in \Gamma$, call $(q,x)$ a **looping situation** if, starting in $q$ with $x$ on top, $P$ never pops below $x$ and never reads an input symbol. If it is accepting, set $\delta(q,\varepsilon,x) = (q_{accept},\varepsilon)$; otherwise set $\delta(q,\varepsilon,x) = (q_{reject},\varepsilon)$.
+
+Henceforth we assume DPDAs read their input to the end.
+
+---
+
+##### THEOREM 2.42 : DCFLs ARE CLOSED UNDER COMPLEMENT - (PAGE 133)
+#THEOREM12
+
+**THESIS**: The class of DCFLs is closed under complementation.
+
+**PROOF IDEA**: For DFAs it suffices to swap accept and non-accept states. For DPDAs there is a catch: the machine may enter both accept and non-accept states in a sequence of moves at the end of the input, and swapping would still accept. The fix is to modify the DPDA so that acceptance can occur only in **reading states** — states that are about to read the next input symbol. Then swap acceptance only among reading states.
+
+**PROOF**:
+First modify $P$ as in Lemma 2.41, so that it always reads the entire input and, once it enters an accept state, remains in accepting states until the next input symbol. Identify the **reading states**: if $\delta(q,a,\varepsilon) \neq \emptyset$ for $a \in \Sigma$, then $q$ is a reading state. If a step both reads and pops, split it into a pop followed by a read: for $\delta(q,a,x) = (r,y)$ with $a \in \Sigma$ and $x \in \Gamma$, add a new state $q_x$ and set $\delta(q,\varepsilon,x) = (q_x,\varepsilon)$ and $\delta(q_x,a,\varepsilon) = (r,y)$; make $q_x$ a reading state, accepting iff $q \in F$. Remove the accepting designation from every non-reading state, then swap which reading states are accepting. The resulting DPDA recognizes the complement.
+
+> [!warning] CONSEQUENCE: 
+> Some CFLs are not DCFLs. Any CFL whose complement is not a CFL cannot be a DCFL. For example $A = \{a^ib^jc^k \mid i \ne j \text{ or } j \ne k\}$ is a CFL but not a DCFL.
+
+---
+
+##### THEOREM 2.43 : ENDMARKERS AND DCFLs - (PAGE 134)
+#THEOREM13
+
+**THESIS**: $A$ is a DCFL if and only if $A\dashv$ is a DCFL.
+
+**PROOF IDEA**:
+- **Forward direction:** if $P$ recognizes $A$, a DPDA $P'$ recognizes $A\dashv$ by simulating $P$ until it reads the endmarker $\dashv$. At that point $P'$ accepts iff $P$ had entered an accept state during the previous symbol; $P'$ reads no symbol after $\dashv$.
+- **Reverse direction:** if $P$ recognizes $A\dashv$, we build $P'$ recognizing $A$. Before reading each symbol, $P'$ determines whether $P$ would accept if that symbol were the endmarker. Since this may depend on the stack, $P'$ stores extra information (sets of states) interleaved with the stack.
+
+**PROOF**:
+**Forward direction:** Let $P = (Q, \Sigma, \Gamma, \delta, q_0, F)$ be a DPDA recognizing $A$; by Lemma 2.41 we may assume that $P$ always reads its entire input. Construct a DPDA $P'$ recognizing $A\dashv$. On input $w\dashv$, $P'$ simulates $P$ on $w$ exactly as $P$ does. When the next input symbol is the endmarker $\dashv$, $P'$ does **not** simulate a move of $P$ on $\dashv$; instead, it accepts iff $P$ had entered an accept state during the previous symbol (i.e. after reading the last symbol of $w$, including any ε-moves performed at that point). In every other case $P'$ rejects. Thus $P'$ accepts exactly the strings $w\dashv$ with $w \in A$, and it never reads past $\dashv$.
+
+**Reverse direction:** Let $P = (Q, \Sigma \cup \{\dashv\}, \Gamma, \delta, q_0, F)$ recognize $A\dashv$. Modify $P$ so that each move does exactly one of: read an input symbol, push a symbol, or pop a symbol. Construct $P' = (Q', \Sigma, \Gamma', \delta', q_0', F')$ with $\Gamma' = \Gamma \cup \mathcal{P}(Q)$: the stack of $P'$ interleaves symbols of $P$ with subsets of $Q$. A subset $R$ on top means that, starting $P$ in any state of $R$, $P$ eventually accepts without reading more input. Initially push $R_0$, the set of states from which $P$ accepts with an empty stack without reading input.
+- **Pop move:** pop and discard the top set, then pop the symbol $P$ would pop.
+- **Push move** $\delta(q,\varepsilon,\varepsilon) = (r,x)$: push $x$, then push the set $S = \{q \mid q \in F \text{ or } (\delta(q,\varepsilon,x) = (r,\varepsilon) \text{ and } r \in R)\}$, where $R$ is the set previously on top.
+- **Read move** $\delta(q,a,\varepsilon) = (r,\varepsilon)$: examine the top set $R$; enter an accept state iff $r \in R$ (and, if input remains, continue simulating $P$).
+
+This $P'$ accepts exactly the strings $w$ such that $w\dashv \in A\dashv$, i.e. $w \in A$.
+
+---
+

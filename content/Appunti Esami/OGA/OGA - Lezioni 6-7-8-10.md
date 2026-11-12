@@ -1,37 +1,51 @@
-# OGA — Lezioni 6-7-8: Dalla start-up al modello di business
+# OGA — Lezioni 6-7-8-10: Dalla start-up al Business Model Canvas
 
-> **Lezioni n. 6 (16/10), 7 (20/10) e 8 (27/10/2026)**
-> Appunti sintetici e lineari. Sono omesse le slide amministrative (Business Game del 5 novembre, aggiornamento esonero, formazione gruppi).
+> **Lezioni n. 6 (16/10), 7 (20/10), 8 (27/10) e 10 (10/11/2026)**
+> Appunti sintetici e lineari. Sono omesse le slide amministrative (Business Game, aggiornamento esonero, gruppi, questionario OPIS).
 
 ---
 
 ## Indice
 
 ### Parte I — Lezione 6: dal bilancio alla start-up
-1. [[OGA - Lezioni 6-7-8#1. Un esempio reale di bilancio AST SpA 2025|Un esempio reale di bilancio: AST SpA 2025]]
-2. [[OGA - Lezioni 6-7-8#2. Che cos'è una start-up|Che cos'è una start-up]]
-3. [[OGA - Lezioni 6-7-8#3. Start-up e impresa le differenze|Start-up e impresa: le differenze]]
-4. [[OGA - Lezioni 6-7-8#4. La crescita "hockey stick"|La crescita "hockey stick"]]
-5. [[OGA - Lezioni 6-7-8#5. I quattro stadi della crescita|I quattro stadi della crescita]]
-6. [[OGA - Lezioni 6-7-8#6. Esempi reali|Esempi reali]]
-7. [[OGA - Lezioni 6-7-8#7. La start-up in Italia|La start-up in Italia]]
-8. [[OGA - Lezioni 6-7-8#8. Glossario della lezione 6|Glossario della lezione 6]]
+1. [[OGA - Lezioni 6-7-8-10#1. Un esempio reale di bilancio AST SpA 2025|Un esempio reale di bilancio: AST SpA 2025]]
+2. [[OGA - Lezioni 6-7-8-10#2. Che cos'è una start-up|Che cos'è una start-up]]
+3. [[OGA - Lezioni 6-7-8-10#3. Start-up e impresa le differenze|Start-up e impresa: le differenze]]
+4. [[OGA - Lezioni 6-7-8-10#4. La crescita "hockey stick"|La crescita "hockey stick"]]
+5. [[OGA - Lezioni 6-7-8-10#5. I quattro stadi della crescita|I quattro stadi della crescita]]
+6. [[OGA - Lezioni 6-7-8-10#6. Esempi reali|Esempi reali]]
+7. [[OGA - Lezioni 6-7-8-10#7. La start-up in Italia|La start-up in Italia]]
+8. [[OGA - Lezioni 6-7-8-10#8. Glossario della lezione 6|Glossario della lezione 6]]
 
 ### Parte II — Lezione 7: dall'idea al modello di business
-9. [[OGA - Lezioni 6-7-8#9. L'idea di business le tre fasi|L'idea di business: le tre fasi]]
-10. [[OGA - Lezioni 6-7-8#10. La mappa dei trend|La mappa dei trend]]
-11. [[OGA - Lezioni 6-7-8#11. Pensiero creativo, pensiero critico e brainstorming|Pensiero creativo, pensiero critico e brainstorming]]
-12. [[OGA - Lezioni 6-7-8#12. Dal Business Model Canvas al modello di business|Dal Business Model Canvas al modello di business]]
-13. [[OGA - Lezioni 6-7-8#13. Il business model e le 4 caratteristiche|Il business model e le 4 caratteristiche]]
-14. [[OGA - Lezioni 6-7-8#14. Business model vs business plan|Business model vs business plan]]
+9. [[OGA - Lezioni 6-7-8-10#9. L'idea di business le tre fasi|L'idea di business: le tre fasi]]
+10. [[OGA - Lezioni 6-7-8-10#10. La mappa dei trend|La mappa dei trend]]
+11. [[OGA - Lezioni 6-7-8-10#11. Pensiero creativo, pensiero critico e brainstorming|Pensiero creativo, pensiero critico e brainstorming]]
+12. [[OGA - Lezioni 6-7-8-10#12. Dal Business Model Canvas al modello di business|Dal Business Model Canvas al modello di business]]
+13. [[OGA - Lezioni 6-7-8-10#13. Il business model e le 4 caratteristiche|Il business model e le 4 caratteristiche]]
+14. [[OGA - Lezioni 6-7-8-10#14. Business model vs business plan|Business model vs business plan]]
 
 ### Parte III — Lezione 8: i 12 business model
-15. [[OGA - Lezioni 6-7-8#15. Panoramica dei 12 modelli|Panoramica dei 12 modelli]]
-16. [[OGA - Lezioni 6-7-8#16. I modelli in dettaglio|I modelli in dettaglio]]
-17. [[OGA - Lezioni 6-7-8#17. Schema di sintesi|Schema di sintesi]]
+15. [[OGA - Lezioni 6-7-8-10#15. Panoramica dei 12 modelli|Panoramica dei 12 modelli]]
+16. [[OGA - Lezioni 6-7-8-10#16. I modelli in dettaglio|I modelli in dettaglio]]
+17. [[OGA - Lezioni 6-7-8-10#17. Schema di sintesi|Schema di sintesi]]
 
 ### Glossario
-18. [[OGA - Lezioni 6-7-8#18. Glossario delle lezioni 7-8|Glossario delle lezioni 7-8]]
+18. [[OGA - Lezioni 6-7-8-10#18. Glossario delle lezioni 7-8|Glossario delle lezioni 7-8]]
+
+### Parte IV — Lezione 10: il Business Model Canvas
+19. [[OGA - Lezioni 6-7-8-10#19. Il Business Model Canvas le 4 aree e i 9 blocchi|Il Business Model Canvas: le 4 aree e i 9 blocchi]]
+20. [[OGA - Lezioni 6-7-8-10#20. Segmenti di clientela|Segmenti di clientela]]
+21. [[OGA - Lezioni 6-7-8-10#21. Proposta di valore|Proposta di valore]]
+22. [[OGA - Lezioni 6-7-8-10#22. Canali|Canali]]
+23. [[OGA - Lezioni 6-7-8-10#23. Relazioni con i clienti|Relazioni con i clienti]]
+24. [[OGA - Lezioni 6-7-8-10#24. Flussi di ricavi|Flussi di ricavi]]
+25. [[OGA - Lezioni 6-7-8-10#25. Risorse chiave|Risorse chiave]]
+26. [[OGA - Lezioni 6-7-8-10#26. Attività chiave|Attività chiave]]
+27. [[OGA - Lezioni 6-7-8-10#27. Partner chiave|Partner chiave]]
+28. [[OGA - Lezioni 6-7-8-10#28. Struttura dei costi|Struttura dei costi]]
+29. [[OGA - Lezioni 6-7-8-10#29. Esempi completi Google e Airbnb|Esempi completi: Google e Airbnb]]
+30. [[OGA - Lezioni 6-7-8-10#30. Glossario della lezione 10|Glossario della lezione 10]]
 
 ---
 
@@ -642,4 +656,371 @@ graph TD
 
 ---
 
-> **Collegamento tra le lezioni:** la lezione 6 racconta **come nasce e cresce** una start-up (bilancio, definizioni, hockey stick, start-up in Italia); la lezione 7 spiega **come si passa dall'idea al business model** (analisi, creatività, Canvas); la lezione 8 approfondisce **i 12 modelli di business** con cui quell'idea può generare valore. In sintesi: **idea → modello di business → business plan → impresa**.
+---
+
+# PARTE IV — LEZIONE 10: IL BUSINESS MODEL CANVAS
+
+*Lezione n. 10 — 10/11/2026*
+
+## 19. Il Business Model Canvas: le 4 aree e i 9 blocchi
+
+Il **Business Model Canvas** descrive il business model attraverso **9 blocchi base** che mostrano la logica di come un'azienda intende **produrre valore**.
+
+I 9 blocchi coprono **4 aree principali**:
+
+```mermaid
+graph TD
+    BMC["BUSINESS MODEL CANVAS<br/>9 blocchi · 4 aree"] --> C["CLIENTI"]
+    BMC --> O["OFFERTA"]
+    BMC --> I["INFRASTRUTTURA"]
+    BMC --> F["SOSTENIBILITÀ FINANZIARIA"]
+    C --> C1["1. Segmenti di clientela"]
+    C --> C2["3. Canali"]
+    C --> C3["4. Relazioni con i clienti"]
+    O --> O1["2. Proposta di valore"]
+    I --> I1["6. Risorse chiave"]
+    I --> I2["7. Attività chiave"]
+    I --> I3["8. Partner chiave"]
+    F --> F1["5. Flussi di ricavi"]
+    F --> F2["9. Struttura dei costi"]
+```
+
+> **Il modello di business è il progetto della strategia** da implementare attraverso strutture organizzative, processi e sistemi.
+
+| # | Blocco | Domanda chiave |
+|---|---|---|
+| 1 | **Segmenti di clientela** | Per chi creiamo valore? |
+| 2 | **Proposta di valore** | Che valore offriamo? |
+| 3 | **Canali** | Come raggiungiamo i clienti? |
+| 4 | **Relazioni con i clienti** | Che relazione vogliamo? |
+| 5 | **Flussi di ricavi** | Per cosa pagano i clienti? |
+| 6 | **Risorse chiave** | Di cosa abbiamo bisogno? |
+| 7 | **Attività chiave** | Cosa dobbiamo fare? |
+| 8 | **Partner chiave** | Chi ci aiuta? |
+| 9 | **Struttura dei costi** | Quanto costa? |
+
+---
+
+## 20. Segmenti di clientela
+
+I **Segmenti di clientela** (*Customer Segments*) descrivono i diversi gruppi di persone e/o organizzazioni a cui l'azienda si rivolge.
+
+> I clienti sono il **cuore** di ogni modello di business: senza clienti remunerativi nessuna azienda può sopravvivere a lungo.
+
+I clienti si raggruppano in **segmenti** con bisogni, comportamenti o caratteristiche comuni. L'azienda deve decidere **consapevolmente** quali segmenti servire e quali ignorare, e costruire il modello attorno ai bisogni specifici di ciascun segmento.
+
+**Un gruppo di clienti è un segmento separato se:**
+
+- ha bisogni che richiedono un'**offerta specifica**;
+- viene raggiunto tramite **canali diversi**;
+- richiede un **tipo di relazione diverso**;
+- ha una **profittabilità sensibilmente differente**;
+- è disposto a pagare per **aspetti diversi** dell'offerta.
+
+**Le tipologie:**
+
+```mermaid
+graph TD
+    S["TIPI DI SEGMENTI"] --> M["MASS MARKET<br/>un unico gruppo<br/>(elettronica di massa)"]
+    S --> N["NICHE MARKET<br/>segmenti specifici<br/>(componenti auto)"]
+    S --> SG["SEGMENTED<br/>segmenti per bisogni<br/>o potere di spesa<br/>(Swatch vs Rolex)"]
+    S --> D["DIVERSIFIED<br/>segmenti non correlati<br/>(Amazon vs AWS)"]
+    S --> P["MULTI-SIDED PLATFORMS<br/>segmenti interdipendenti<br/>(carta di credito)"]
+```
+
+- **Mass market** — un unico grande gruppo con bisogni simili (es. elettronica di massa).
+- **Niche market** — mercati specifici e specializzati (es. componenti per l'automobile).
+- **Segmented** — segmenti distinti per bisogni, potere di spesa o finalità (es. Swatch vs Rolex).
+- **Diversified** — due segmenti **non correlati** (es. Amazon marketplace vs AWS).
+- **Multi-sided platforms** — due o più segmenti **interdipendenti** (es. carta di credito: utenti + esercenti).
+
+**Domande:** Per chi stiamo creando valore? Chi sono i clienti più importanti?
+
+---
+
+## 21. Proposta di valore
+
+La **Proposta di valore** (*Value Propositions*) è il pacchetto di prodotti e servizi che rappresenta un valore per uno specifico segmento di clienti.
+
+> È la **ragione** (*reason why*) per cui i clienti scelgono un'azienda invece di un'altra: risolve un problema o soddisfa un bisogno.
+
+Può essere:
+
+- **innovativa o dirompente** (*disruptive*): un'offerta nuova;
+- **simile a quelle esistenti**, ma con caratteristiche e attributi aggiuntivi.
+
+Questa sezione **determina il successo o l'insuccesso** del modello. Il valore può essere:
+
+- **quantitativo** (prezzo, velocità del servizio...);
+- **qualitativo** (design, esperienza di vendita...).
+
+**Elementi che creano valore:**
+
+| Elemento | Cosa significa |
+|---|---|
+| **Novità** | Soddisfa bisogni nuovi che prima non erano percepiti |
+| **Performance** | Migliora le prestazioni del prodotto/servizio |
+| **Personalizzazione** | Adatta l'offerta a singoli clienti o segmenti |
+| **Getting the job done** | Aiuta il cliente a completare un lavoro |
+| **Design** | Distingue il prodotto per estetica e usabilità |
+| **Brand/status** | Il valore di usare e mostrare un brand |
+| **Prezzo** | Offre valore simile a prezzo più basso |
+| **Riduzione dei costi** | Aiuta il cliente a ridurre i propri costi |
+| **Riduzione dei rischi** | Riduce il rischio percepito nell'acquisto |
+| **Accessibilità** | Rende accessibile ciò che prima non lo era |
+| **Convenienza/usabilità** | Rende le cose più semplici e comode |
+
+**Domande:** Perché i clienti dovrebbero scegliere noi? Che valore diamo? Quale problema risolviamo? Quali bisogni soddisfiamo?
+
+---
+
+## 22. Canali
+
+I **Canali** (*Channels*) descrivono **come** l'azienda comunica e raggiunge i segmenti di clientela per fornire la proposta di valore. Comunicazione, distribuzione e vendita sono l'**interfaccia** con i clienti.
+
+**Le 5 funzioni dei canali:**
+
+1. **Sensibilizzare** i clienti sui prodotti/servizi;
+2. aiutarli a **valutare** la proposta di valore;
+3. permettere l'**acquisto**;
+4. offrire la **proposta di valore** (delivery);
+5. fornire **assistenza post-vendita**.
+
+**Le 5 fasi:**
+
+```mermaid
+graph LR
+    A["1. AWARENESS<br/>sensibilizzare"] --> B["2. EVALUATION<br/>valutare la proposta"]
+    B --> C["3. PURCHASE<br/>acquistare"]
+    C --> D["4. DELIVERY<br/>ricevere il valore"]
+    D --> E["5. AFTER SALES<br/>assistenza post-vendita"]
+    
+```
+
+**Tipi di canale:**
+
+- **diretti** (forza vendita, web, negozi propri) vs **indiretti** (negozi dei partner, grossisti);
+- **di proprietà** vs **dei partner**.
+
+> Trovare il giusto **mix** di canali è cruciale per portare la proposta di valore sul mercato.
+
+**Domande:** Attraverso quali canali vogliono essere raggiunti i clienti? Come li raggiungiamo ora? Quale canale funziona meglio e costa meno?
+
+---
+
+## 23. Relazioni con i clienti
+
+Le **Relazioni con i clienti** (*Customer Relationships*) descrivono il tipo di relazione che l'azienda stabilisce con ciascun segmento.
+
+Le relazioni possono variare da quelle **automatizzate** a quelle **personali** e sono guidate da tre motivazioni: **acquisizione**, **mantenimento** e **aumento delle vendite**.
+
+**Le categorie:**
+
+```mermaid
+graph TD
+    R["RELAZIONI CON I CLIENTI"] --> A["Assistenza personale"]
+    R --> B["Assistenza personale dedicata"]
+    R --> C["Self-service"]
+    R --> D["Servizi automatizzati"]
+    R --> E["Community"]
+    R --> F["Co-creazione"]
+```
+
+- **Assistenza personale** — interazione umana con un referente.
+- **Assistenza personale dedicata** — un referente specifico per il cliente, relazione profonda e di lungo periodo.
+- **Self-service** — il cliente fa da sé, senza relazione diretta.
+- **Servizi automatizzati** — mix di self-service e processi automatizzati.
+- **Community** — comunità di utenti per coinvolgere clienti e prospect.
+- **Co-creazione** — il valore si crea **insieme** al cliente (es. recensioni Amazon).
+
+**Domande:** Che relazione si aspetta ogni segmento? Che relazione abbiamo? Quanto costa?
+
+---
+
+## 24. Flussi di ricavi
+
+I **Flussi di ricavi** (*Revenue Streams*) rappresentano il denaro che l'azienda genera da ciascun segmento di clientela.
+
+> Se i clienti sono il cuore, i flussi di ricavi sono le **arterie**.
+
+La domanda chiave è: **per quale valore il cliente è disposto a pagare?**
+
+**Meccanismi di prezzo:** listino, contrattazione, asta, dipendente dal mercato, dipendente dai volumi, gestione del rendimento (*yield management*).
+
+**Due tipi di flussi:** da **transazione** (pagamenti una tantum) e da **pagamenti ricorrenti**.
+
+**Le modalità:**
+
+```mermaid
+graph TD
+    R["FLUSSI DI RICAVI"] --> A["Vendita di un bene<br/>(asset sale)"]
+    R --> B["Tariffa d'uso<br/>(usage fee)"]
+    R --> C["Sottoscrizione<br/>(subscription)"]
+    R --> D["Noleggio / leasing<br/>(lending/renting/leasing)"]
+    R --> E["Licenza<br/>(licensing)"]
+    R --> F["Commissioni di intermediazione<br/>(brokerage fees)"]
+    R --> G["Pubblicità<br/>(advertising)"]
+```
+
+- **Asset sale** — vendita del diritto di proprietà di un bene.
+- **Usage fee** — si paga in base all'utilizzo del servizio.
+- **Subscription** — accesso continuativo al servizio.
+- **Lending/renting/leasing** — uso temporaneo di un bene a un prezzo definito.
+- **Licensing** — permesso di usare proprietà intellettuale.
+- **Brokerage fees** — commissioni di intermediazione.
+- **Advertising** — ricavi dalla pubblicità.
+
+**Domande:** Per cosa pagano i clienti? Come pagano? Quanto contribuisce ogni flusso?
+
+---
+
+## 25. Risorse chiave
+
+Le **Risorse chiave** (*Key Resources*) sono gli **asset più importanti** necessari per far funzionare il modello: permettono di creare la proposta di valore, raggiungere i mercati, mantenere le relazioni e generare ricavi.
+
+Possono essere **di proprietà**, **affittate** o **fornite dai partner**.
+
+```mermaid
+graph TD
+    K["RISORSE CHIAVE"] --> A["Fisiche<br/>impianti, edifici, veicoli, reti"]
+    K --> B["Intellettuali<br/>brand, brevetti, conoscenze, database"]
+    K --> C["Umane<br/>persone e competenze"]
+    K --> D["Finanziarie<br/>liquidità, linee di credito"]
+```
+
+**Domande:** Quali risorse richiede la nostra proposta di valore, i canali, le relazioni, i ricavi?
+
+---
+
+## 26. Attività chiave
+
+Le **Attività chiave** (*Key Activities*) sono le azioni più importanti che l'azienda deve compiere per far funzionare il modello.
+
+```mermaid
+graph TD
+    A["ATTIVITÀ CHIAVE"] --> P["Produzione<br/>progettazione, realizzazione, consegna"]
+    A --> S["Problem solving<br/>soluzioni ai problemi del cliente"]
+    A --> N["Piattaforme / reti<br/>gestione e promozione della piattaforma"]
+```
+
+- **Produzione** — tipica delle imprese manifatturiere.
+- **Problem solving** — consulenza, ospedali, servizi.
+- **Piattaforme/reti** — eBay, piattaforme di matchmaking, software.
+
+**Domande:** Quali attività richiede la proposta di valore, i canali, le relazioni, i ricavi?
+
+---
+
+## 27. Partner chiave
+
+I **Partner chiave** (*Key Partners*) sono il **network di fornitori e partner** che l'azienda deve sviluppare per far funzionare il modello.
+
+**4 tipi di partnership:**
+
+```mermaid
+graph TD
+    P["PARTNER CHIAVE"] --> A["1. Alleanze strategiche<br/>tra non concorrenti"]
+    P --> B["2. Coopetizione<br/>tra concorrenti"]
+    P --> C["3. Joint venture<br/>nuovi business"]
+    P --> D["4. Relazione acquirente-fornitore"]
+```
+
+**Perché si creano partnership:**
+
+1. **Ottimizzazione ed economie di scala** — ridurre i costi, condividere infrastrutture, fare outsourcing.
+2. **Riduzione dei rischi e dell'incertezza** — alleanze anche tra concorrenti in settori diversi.
+3. **Acquisizione di risorse e attività** — conoscenze, licenze, accesso ai clienti.
+
+**Domande:** Chi sono i partner e i fornitori chiave? Quali risorse/attività svolgono per noi?
+
+---
+
+## 28. Struttura dei costi
+
+La **Struttura dei costi** (*Cost Structure*) descrive tutti i costi necessari per far funzionare il modello. I costi diventano calcolabili una volta definite risorse, attività e partner chiave.
+
+**Due classi:**
+
+```mermaid
+graph TD
+    C["STRUTTURA DEI COSTI"] --> A["COST-DRIVEN<br/>minimizzare i costi"]
+    C --> B["VALUE-DRIVEN<br/>focus sulla creazione di valore"]
+    C --> D["Costi fissi"]
+    C --> E["Costi variabili"]
+    C --> F["Economie di scala"]
+    C --> G["Economie di scopo"]
+```
+
+- **Cost-driven** — focus sulla **minimizzazione dei costi**: prezzi bassi, massima automazione, outsourcing.
+- **Value-driven** — focus sulla **creazione di valore**: proposta premium, alta personalizzazione.
+
+**Caratteristiche:**
+
+- **Costi fissi** — non cambiano con i volumi (stipendi, affitti, macchinari);
+- **Costi variabili** — variano proporzionalmente ai volumi;
+- **Economie di scala** — vantaggi quando i volumi aumentano;
+- **Economie di scopo** — vantaggi da un ambito operativo più ampio.
+
+**Domande:** Quali sono i costi più importanti? Quali risorse e attività costano di più?
+
+---
+
+## 29. Esempi completi: Google e Airbnb
+
+### 29.1 Google
+
+| Blocco | Contenuto |
+|---|---|
+| **Proposta di valore** | Servizi gratuiti, Google AdWords, OS e piattaforme, servizi a pagamento |
+| **Segmenti** | Utenti Internet, inserzionisti, sviluppatori, imprese |
+| **Canali** | Google.com, Google Play Store, forza vendita |
+| **Relazioni** | Self-service, customer support per i clienti paganti |
+| **Flussi di ricavi** | Pay-per-click, percentuali su app e abbonamenti, canoni mensili/annuali o per uso |
+| **Risorse chiave** | Brand, algoritmi e data center Google |
+| **Attività chiave** | R&S, sviluppo e manutenzione |
+| **Partner chiave** | Agenzie pubblicitarie, content site, OEM |
+| **Costi** | Data center, marketing e vendite, R&S |
+
+### 29.2 Airbnb
+
+| Blocco | Contenuto |
+|---|---|
+| **Proposta di valore** | Alloggi personalizzati e convenienti in tutto il mondo, prenotazione semplice, prezzi competitivi |
+| **Segmenti** | Viaggiatori, proprietari di immobili |
+| **Canali** | Airbnb.com, app Airbnb |
+| **Relazioni** | Self-service, customer support |
+| **Flussi di ricavi** | Percentuale su ogni prenotazione |
+| **Risorse chiave** | Brand, community di host e guest, piattaforma |
+| **Attività chiave** | Sviluppo e manutenzione della piattaforma, marketing, user research |
+| **Partner chiave** | Investitori, compagnie assicurative, fornitori di pagamenti |
+| **Costi** | Sviluppo e manutenzione della piattaforma, marketing |
+
+---
+
+## 30. Glossario della lezione 10
+
+| Termine | Significato essenziale |
+|---|---|
+| **Business Model Canvas** | Schema in 9 blocchi che descrive come un'azienda crea valore. |
+| **Segmenti di clientela** | Gruppi di clienti con bisogni/comportamenti comuni. |
+| **Mass market** | Un unico grande segmento con bisogni simili. |
+| **Niche market** | Segmento specifico e specializzato. |
+| **Segmented** | Segmenti distinti per bisogni o potere di spesa. |
+| **Diversified** | Segmenti non correlati tra loro. |
+| **Multi-sided platform** | Piattaforma con due o più segmenti interdipendenti. |
+| **Proposta di valore** | Pacchetto di prodotti/servizi che crea valore per un segmento. |
+| **Canali** | Come l'azienda raggiunge e serve i clienti. |
+| **Relazioni con i clienti** | Tipo di rapporto con ciascun segmento. |
+| **Flussi di ricavi** | Denaro generato da ciascun segmento. |
+| **Risorse chiave** | Asset necessari per far funzionare il modello. |
+| **Attività chiave** | Azioni più importanti per far funzionare il modello. |
+| **Partner chiave** | Network di fornitori e partner. |
+| **Struttura dei costi** | Tutti i costi necessari per operare il modello. |
+| **Cost-driven** | Modello orientato alla minimizzazione dei costi. |
+| **Value-driven** | Modello orientato alla creazione di valore. |
+| **Economie di scala** | Vantaggi di costo all'aumentare dei volumi. |
+| **Economie di scopo** | Vantaggi di costo da un ambito operativo più ampio. |
+
+---
+
+> **Collegamento tra le lezioni:** la lezione 6 racconta **come nasce e cresce** una start-up (bilancio, definizioni, hockey stick, start-up in Italia); la lezione 7 spiega **come si passa dall'idea al business model** (analisi, creatività, Canvas); la lezione 8 approfondisce **i 12 modelli di business**; la lezione 10 entra **dentro il Canvas**, blocco per blocco. In sintesi: **idea → modello di business → Canvas → business plan → impresa**.

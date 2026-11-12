@@ -264,6 +264,12 @@ When $s$ is being divided into $uvxyz$, condition 2 says that either $v$ or $y$ 
 
 > [!info] In the original tree, the **upper** occurrence of $R$ generates $vxy$, while the **lower** occurrence generates only $x$. Replacing the lower subtree by a copy of the upper one gives $uv^2xy^2z$ (**pump up**); replacing the upper subtree by the lower one gives $uxz$ (**pump down**).
 
+##### EXAMPLE ANIMATION: 
+
+```custom-frames
+frame: Pumping Lemma
+style: height: 820px;
+```
 
 ##### THEOREMS LINKED:
 - [[TEOREMI - CAPITOLO 2#THEOREM 2.34 PUMPING LEMMA FOR CONTEXT-FREE LANGUAGES - (PAGE 125)|THEOREM 2.34]]

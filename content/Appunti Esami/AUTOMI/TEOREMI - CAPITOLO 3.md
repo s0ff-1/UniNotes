@@ -20,6 +20,12 @@ with $k+1$ delimiters and a dotted version of each tape symbol to mark the virtu
 
 $S$ simulates $M$ step by step and accepts exactly when $M$ accepts.
 
+![[figure3.14.png]]
+
+##### ANIMATED PROCESS:
+
+![[tm-3.13-multitape-single.gif]]
+
 ---
 ##### THEOREM 3.16 : NONDETERMINISTIC → DETERMINISTIC - (PAGE 178)
 #THEOREM18
@@ -41,3 +47,9 @@ Every node has at most $b$ children, where $b$ is the maximum number of choices 
 4. Replace the address by the next string in the string ordering (BFS) and go to stage 2.
 
 BFS guarantees that every node of the tree is eventually visited until an accepting configuration is found. If $N$ has no accepting branch, $D$ may run forever; this is correct for a recognizer.
+
+![[figure3.17.png]]
+
+##### ANIMATED PROCESS:
+
+![[tm-3.16-nondeterministic-deterministic.gif]]
